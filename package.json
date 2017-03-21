@@ -5,8 +5,6 @@
   "scripts": {
     "build": "babel ./src -d ./build --source-map",
     "clean": "rimraf ./build",
-    "start": "node ./build",
-    "dev": "npm run clean && npm run build && npm start",
     "test": "jest"
   },
   "dependencies": {
